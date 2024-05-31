@@ -1,0 +1,924 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container{
+    background-image:url("./Images/back1.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    
+    }
+    
+    .title{
+      
+    color:aliceblue;
+    font-size:60px ;
+    margin: 0 0;
+    }
+    
+    .title:hover{
+    transform:scale(1.1);
+    transition: 1s;
+    /* background-color:indigo; */
+    
+    }
+    .text{
+    margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      /* justify-content:flex-end; */
+      align-items: center;
+      height:65%;
+      /* border: 2px solid green; */
+    
+    }
+    .text p{
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 20px;
+    }
+    .text p:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+    .text h3{
+    margin-top: 40px;
+    color: crimson;
+    font-size: 40px;
+    }
+    .text h3:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+    .text h4{
+    color:crimson;
+    font-size: 60px;
+    margin-top: 20px;
+    }
+    .text h4:hover{
+      transform: scale(1.1);
+      transition: 0.5s;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    
+    p{
+      font-family: 'Inter', sans-serif;
+    }
+    
+    .header-products{
+      background-color: black;
+      width: 100%;
+      height: 93px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: none;
+      
+      
+    }
+    
+    
+    .left-section{
+    
+      width: 70px;
+      height: 85px;
+      margin-left: 15px;
+      
+    }
+    
+    .products-logo{
+      width: 100%;
+      height: 100%;    
+    }
+    
+    
+    .middle-section{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      margin-left: 99px;
+      width: 450px;
+      
+      
+    
+    }
+    
+    .middle-section a{
+      text-decoration: none;
+      font-size: 22px;
+      color: white;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-radius: 13px;
+      
+    }
+    
+    .middle-section a:hover{
+      background-color: rgb(57, 31, 66);
+      
+      color: white;
+      transition: 0.15s;
+    }
+    
+    
+    .right-section{
+      height: 50px;
+      width: 115px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-right: 50px; 
+    }
+    .brands{
+        text-align: center;
+        color:black;
+        font-size:20px ;
+    }
+    .brand{
+    
+    padding: 10px 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      /* width: 100%; */
+      height: 200px;
+        /* border: 2px solid black; */
+    }
+    .b{
+      border: 2px solid black;
+      width: 25%;
+      height:100%;
+      position:relative ;
+    }
+    .xbox{
+      width: 100%;
+      height:100%;
+    }
+    .brand_back{
+      background-color:dimgray;
+    margin-bottom: 50px;
+    }
+    .ps{
+      height: 100%;
+      width: 100%;
+    }
+    .apple1{
+      height: 100%;
+      width: 100%;
+    }
+    .apple1:hover{
+    /* background-color: orange; */
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 0 0 25px rgb(15, 17, 15)
+    }
+    .ps:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 0 0 25px rgb(15, 17, 15)
+    }
+    .xbox:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 0 0 25px rgb(15, 17, 15)
+    }
+    .special{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;    
+    padding: 0px  80px;   
+    height: 400px ;
+    /* border: 2px solid green; */
+    }
+    
+    .offer{
+      border: 2px solid black;
+      width: 38%;
+      height: 100%; 
+    }
+    #ps5{
+      background-image:url("./Images/ps5.jpg") ;
+      
+      background-repeat: no-repeat;
+      /* width: 100%; */
+    }
+    #ps5:hover{
+      transform: scale(1.05);
+      transition: 0.5s;
+      box-shadow: 0 0 25px rgb(15, 17, 15)
+    }
+    .offer h2{
+      margin-left: 200px;
+      width: 250px;
+      /* border: 2px solid red; */
+      font-size: 30px;
+      text-align: center;
+      color:blue ;
+      box-shadow: 0 0 5px blue, 0 0 25px blue
+    }
+    .offer h2:hover{
+    box-shadow: 0 0 5px blue,0 0 25px blue,0 0 50px blue;
+    transform: scale(1.05);
+    transition: 0.5s;
+    
+    }
+    #sale{
+    background-image: url("./Images/sale.jpg");
+    height:100 ;
+    background-repeat: no-repeat;
+    
+    }
+    #sale h3{
+      /* margin-bottom: 50px; */
+      /* border: 2px solid white; */
+      color: white;
+    font-size: 40px;
+    text-align: center;
+    }
+    #sale h4{
+      font-size: 45px;
+      color: red;
+      text-align: center;
+      margin-bottom: 60px;
+      /* border: 2px solid wheat; */
+    width: 30%;
+    margin-left: 230px;
+    margin-bottom: 10px;
+    }
+    #sale h4:hover{
+      transform: rotate(360deg);
+      transition: 1s;
+    }
+    #sale:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0 0 25px rgb(15, 17, 15)
+    }
+    .main_container{
+      height: 195vh;
+      background-color:dimgray       
+    }
+
+
+
+
+
+.products-cart{
+    height: 45px;
+    width: 45px;
+}
+.products-cart:hover{
+    transform: scale(0.94);
+    transition: 0.15s;
+}
+
+.products-search{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.products-search:hover{
+    border: 3px solid rgb(95, 51, 110);
+    transition: 0.1s;   
+}
+
+.two-block-everything{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(24, 24, 24);
+
+}
+
+.special-game-promo{
+
+   display: flex;
+   flex-direction: column;
+}
+.death-stranding-all-text{
+    display: flex;
+    flex-direction: column;
+}
+.death-stranding{
+
+    position: relative;
+    width: 97%;
+    margin-top: 5px;
+    border-radius: 8px;
+    height: 750px;
+    filter: brightness(0.8);
+    border: none;
+}
+.just-for-centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ds-stuff{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.death-stranding-title{
+
+    position: absolute;
+    bottom: 64%;
+    left: 11%;
+    font-size: 85px;
+    font-weight: bold;
+    color: rgba(238, 234, 234, 0.96);
+
+}
+
+.death-stranding-title-2{
+    position: absolute;
+    color: rgba(238, 234, 234, 0.96);
+    font-weight: bold;
+    bottom: 56%;
+    left: 11%;
+    font-size: 85px;
+
+}
+
+.death-stranding-caption{
+    
+    color: rgb(211, 206, 206);
+    position: absolute;
+    bottom: 54%;
+    left: 11%;
+
+}
+.death-stranding-genres{
+    font-weight: bold;
+    font-size: 30px;
+}
+.genres{
+    position: absolute;
+    bottom: 47%;
+    color: white;
+    left: 11%;
+    display: flex;
+  
+    align-items: center;
+    width: 24%;
+    justify-content: space-between;
+}
+.death-stranding-genre-box{
+    background-color: rgb(59, 55, 55);
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px 10px;
+    
+}
+.death-stranding-genre-box:hover{
+    opacity: 0.83;
+}
+
+.platforms{
+    position: absolute;
+    bottom: 40%;
+    left: 11%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    width: 16%;
+    justify-content: space-between;
+}
+
+.platforms h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.platform-image{
+    height: 45px;
+    width: 45px;
+}
+
+.ds-two-buttons{
+    display: flex;
+    width: 16%;  
+    position: absolute;
+    
+    bottom: 35%;
+    left: 11%;
+    justify-content: space-between;
+
+}
+.buy-death-stranding{
+
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 20px;
+    font-weight: lighter;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(120, 12, 153);
+
+}
+
+.buy-death-stranding:hover{
+    background-color: rgb(135, 52, 158);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.ds-fav-button{
+    background-color: #98959b;
+    border-radius: 10px;
+    border: none;
+}
+
+.ds-fav-button:hover{
+
+    transform: scale(0.95);
+    transition: 0.2s;
+}
+.ds-fav-icon{
+
+    height: 40px;
+    width: 40px;
+}
+
+.ds-fav-icon:hover{
+    transform: scale(0.95);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.top-fire{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 23%;
+    left: 44%;
+    align-items: center;
+    
+}
+
+.top-fire button{
+    border-radius: 27.5px;
+    background-color: #9121bd;
+    border: none;
+}
+
+.ds-fire-icon{
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+}
+.top-fire p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.promos{
+    width: 99%;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    margin-top: 0px;
+    background-color: rgb(26, 24, 24);
+    padding-top: 25px;
+ 
+
+}
+.sekiro-promo, .god-of-war-promo{ 
+    width: 40%;
+    height: 500px;
+    margin-left: 140px;
+    position: relative;
+
+}
+.god-of-war-promo{
+    margin-right: 140px;
+}
+
+
+.sekiro-image, .gow-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(5, 5, 5, 0.6);
+}
+
+.product-card-sekiro{
+    background-color: rgb(57, 31, 66);
+    height: 100%;
+    width: 420px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 7px black;
+    margin-right: 300px;
+ 
+}
+.caption-product-sekiro{
+    display: flex;
+    flex-direction: column;
+    bottom: 30%;
+    left: 11%;
+}  
+
+.title-card-sekiro{
+    color: white;
+    font-size: 22px;
+    font-weight: 450;
+    margin-left: 10px;
+
+    
+    margin-top: 13px;
+    margin-bottom: 0px;
+
+    
+}
+
+.title-card-sekiro{
+    color: white;
+    font-size: 22px;
+    font-weight: 450;
+    margin-left: 10px;
+
+    margin-top: 13px;
+    margin-bottom: 0px;
+
+    
+}
+
+.buynow-button-promo{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px ;
+    bottom: 3%;
+    right: 34%;
+    color: white;
+    
+}
+
+.buynow-button-promo:hover{
+    background-color:  white;
+    color: black;
+    transition: 0.4s;
+    cursor: pointer;
+}
+  
+
+.all-products{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+.product-card-row-1{
+    margin-top: 50px;
+    margin-left: 280px;
+    margin-right: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+    
+}
+.product-cards{
+    background-color: #1a091f;
+    height: 580px;
+    width: 320px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 1px 1px 7px black;
+    
+    
+ 
+    
+}
+
+.caption-product{
+    display: flex;
+    flex-direction: column;
+    
+   
+    
+    
+}
+
+.title-card{
+    color: white;
+    font-size: 20px;
+    font-weight: 450;
+    margin-left: 10px;
+
+    margin-top: 13px;
+    margin-bottom: 0px;
+
+}
+
+.price-tag{
+    color: white;
+    font-size: 24px;
+    font-weight: 450;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+
+    
+
+}
+.separation-line{
+    margin-top: 0px;
+    color: rgb(87, 84, 84);
+}
+
+.product-covers{
+    width: 100%;
+    height: 365px;
+    border-radius: 6px;
+    
+    
+}
+
+.product-covers:hover{
+    transform: scale(1.04);
+    transition: 0.2s;
+}
+
+
+.two-buttons-sep{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.separation-line{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.two-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    
+
+}
+
+.fav-icon-button{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    background: transparent;
+    border: none;
+    margin-left: 10px;
+    
+}
+
+.fav-icon-button:hover{
+    
+    border: 1px solid white;
+    border-radius: 5px;
+    transform: scale(0.95);
+    cursor: pointer;
+    transition: 0.15s;
+    
+}
+.fav-icon{
+    height: 100%;
+    width: 100%;
+}
+
+.buynow-button{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    
+}
+
+.buynow-button:hover{
+    background-color: white;
+    color: rgb(30, 30, 30);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+/*ABDULLLAH CONTACT PAGE*/
+
+  .map {
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+  
+  }
+  
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .cards {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 300px;
+    font-size: 30px;
+  }
+  
+  .card1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+  
+  }
+  
+  .card1subcard1 {
+    cursor: pointer;
+  }
+  
+  i {
+    color: #7A4FF4;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .card2 {
+    margin-left: 90px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 30px;
+  
+  }
+  
+  .card2subcard1 {
+    margin-bottom: 50px;
+  }
+  
+  .card2subcard2 {
+    margin-bottom: 50px;
+  }
+  
+  .card2subcard3 {
+    margin-bottom: 50px;
+  }
+  
+  .card2subcard5 {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+  
+  }
+  
+  .nameinput {
+    border: none;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .mailinput {
+    border: none;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .phoneinput {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .submitinput {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 300px;
+    margin: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .helpinput {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 640px;
+    margin: 20px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .getintouch {
+    background-color: #7A4FF4;
+    color: white;
+    margin-left: 25px;
+    height: 60px;
+    width: 210px;
+    margin: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    height: 40px;
+    width: 25px;
+    cursor: pointer;
+  }
+  
+
+  /*ABDULLAH CONTACT PAGE*/
+
+.footer-products p{
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 19px;
+}
+
+.footer-products{
+    margin-top: 0px;
+    background-color: black;
+    height: 110px;
+}
+
